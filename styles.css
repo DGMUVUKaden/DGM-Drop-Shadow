@@ -13,17 +13,17 @@ img {
     top: 125px;
     font-size: 150px;
     user-select: none;
-    left: 25%;
+    left: 5%;
 }
 
 .hero-title:hover {
-    filter: drop-shadow(4px 6px 0px rgb(85, 85, 85));
+    filter: drop-shadow(4px 8px 0px rgb(85, 85, 85));
 }
 
 .hero {
     width: 100%;
     height: 500px;
-    background-color: hsl(225, 100%, 95%);
+    background-color: hsl(224, 100%, 71%);
     margin-bottom: 48px;
 }
 
@@ -62,7 +62,8 @@ body {
 }
 
 .lightBG {
-    background-color: #ffcdb2;
+    background-color: hsl(182, 100%, 85%);
+    color: hsl(182, 100%, 70%);
     width: 250px;
     height: 250px;
     display: flex;
@@ -71,7 +72,8 @@ body {
 }
 
 .lightbg {
-    background-color: #ffcdb2;
+    background-color: hsl(182, 100%, 85%);
+    color: hsl(182, 100%, 70%);
     width: 250px;
     height: 250px;
     display: flex;
@@ -79,6 +81,9 @@ body {
     align-items: center;
 }
 
+.lightbg p {
+    filter: drop-shadow(1px 1px 1px black);
+}
 
 .example {
     display: flex;
